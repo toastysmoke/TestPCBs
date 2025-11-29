@@ -1,6 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "TI-BQ27220YZFR")(type "KiCad")(uri "${COMPONENT_LIBRARY}/TI-BQ27220YZFR/TI-BQ27220YZFR.pretty")(options "")(descr ""))
-  (lib (name "XFCN-PZ254V-11-05P")(type "KiCad")(uri "${COMPONENT_LIBRARY}/XFCN-PZ254V-11-05P/XFCN-PZ254V-11-05P.pretty")(options "")(descr ""))
-  (lib (name "JST-S3B-XH-A(LF)(SN)")(type "KiCad")(uri "${COMPONENT_LIBRARY}/JST-S3B-XH-A(LF)(SN)/JST-S3B-XH-A(LF)(SN).pretty")(options "")(descr ""))
-)
