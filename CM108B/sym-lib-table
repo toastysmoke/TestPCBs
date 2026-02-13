@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Audio Codec")(type "KiCad")(uri "${KIPRJMOD}/easyeda2kicad/CM108B.kicad_sym")(options "")(descr ""))
-  (lib (name "Slide Switch")(type "KiCad")(uri "${KIPRJMOD}/easyeda2kicad/MST22D18G2.kicad_sym")(options "")(descr ""))
-  (lib (name "Push Switch")(type "KiCad")(uri "${KIPRJMOD}/easyeda2kicad/C4B1802110.kicad_sym")(options "")(descr ""))
-)
