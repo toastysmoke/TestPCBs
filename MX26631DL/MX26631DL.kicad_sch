@@ -575,8 +575,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at 0 24.13 0)
+			(property "Reference" "U"
+				(at 0 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -584,7 +584,7 @@
 				)
 			)
 			(property "Value" "MX26631DL"
-				(at 0 21.59 0)
+				(at 0 -19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -650,9 +650,7 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "MX26631DL_1_1"
-				(pin power_in line
+				(pin unspecified line
 					(at -13.97 13.97 0)
 					(length 2.54)
 					(name "IN"
@@ -670,7 +668,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin unspecified line
 					(at -13.97 11.43 0)
 					(length 2.54)
 					(name "IN"
@@ -688,7 +686,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin unspecified line
 					(at -13.97 8.89 0)
 					(length 2.54)
 					(name "BGATE"
@@ -706,7 +704,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin unspecified line
 					(at -13.97 6.35 0)
 					(length 2.54)
 					(name "DRV"
@@ -724,7 +722,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -13.97 3.81 0)
 					(length 2.54)
 					(name "IN_SYS"
@@ -742,7 +740,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -13.97 1.27 0)
 					(length 2.54)
 					(name "UVLO"
@@ -760,7 +758,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -13.97 -1.27 0)
 					(length 2.54)
 					(name "OVP"
@@ -778,7 +776,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin unspecified line
 					(at -13.97 -3.81 0)
 					(length 2.54)
 					(name "GND"
@@ -796,7 +794,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -13.97 -6.35 0)
 					(length 2.54)
 					(name "dVdT"
@@ -814,7 +812,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -13.97 -8.89 0)
 					(length 2.54)
 					(name "ILIM"
@@ -832,7 +830,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -13.97 -11.43 0)
 					(length 2.54)
 					(name "MODE"
@@ -850,7 +848,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at -13.97 -13.97 0)
 					(length 2.54)
 					(name "SHDN"
@@ -868,7 +866,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 13.97 16.51 180)
 					(length 2.54)
 					(name "EP"
@@ -886,7 +884,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 13.97 13.97 180)
 					(length 2.54)
 					(name "NC"
@@ -904,7 +902,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 13.97 11.43 180)
 					(length 2.54)
 					(name "NC"
@@ -922,7 +920,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 13.97 8.89 180)
 					(length 2.54)
 					(name "NC"
@@ -940,7 +938,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 13.97 6.35 180)
 					(length 2.54)
 					(name "NC"
@@ -958,7 +956,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 13.97 3.81 180)
 					(length 2.54)
 					(name "NC"
@@ -976,7 +974,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 13.97 1.27 180)
 					(length 2.54)
 					(name "NC"
@@ -994,7 +992,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin unspecified line
 					(at 13.97 -1.27 180)
 					(length 2.54)
 					(name "OUT"
@@ -1012,7 +1010,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin unspecified line
 					(at 13.97 -3.81 180)
 					(length 2.54)
 					(name "OUT"
@@ -1030,7 +1028,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin unspecified line
 					(at 13.97 -6.35 180)
 					(length 2.54)
 					(name "PGOOD"
@@ -1048,7 +1046,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin unspecified line
 					(at 13.97 -8.89 180)
 					(length 2.54)
 					(name "PGTH"
@@ -1066,7 +1064,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin unspecified line
 					(at 13.97 -11.43 180)
 					(length 2.54)
 					(name "FLT"
@@ -1084,7 +1082,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin unspecified line
 					(at 13.97 -13.97 180)
 					(length 2.54)
 					(name "IMON"
@@ -1540,13 +1538,14 @@
 		)
 		(uuid "614fbdbf-c41a-4a3a-b912-0c9d5549b19f")
 	)
-	(text "For testing overvoltage and overcurrent capability.\nOvervoltage = 6v\nOvercurrent = 3.26A(5A in short bursts)\n\n- When testing overvoltage, a maximum of 12V to prevent LED burnout\n"
+	(text "For testing overvoltage and overcurrent capability.\nOvervoltage Threshold = 5.929v\nOvercurrent Threshold = 5.49A (8.235A in short bursts)\n\nTesting Over-voltage Protection\nV = 12V\n\nTesting Over-current Protection\nV = 5V\n\n- When testing overvoltage, a maximum of 12V to prevent LED burnout\n"
 		(exclude_from_sim no)
-		(at 65.024 51.054 0)
+		(at 14.732 44.704 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "73a3274a-679d-4de6-95ac-0ffa2919ee12")
 	)
@@ -1567,10 +1566,22 @@
 		(uuid "16301467-3076-4128-87ee-52616f9251c4")
 	)
 	(junction
+		(at 187.96 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2806ac17-3e8b-44af-ab85-26b5af144e19")
+	)
+	(junction
 		(at 104.14 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d2dd9f6-47a1-4d3a-93c6-2c180277a452")
+	)
+	(junction
+		(at 76.2 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "416ed39c-f5b1-40bb-8d1a-7df8ca218c40")
 	)
 	(junction
 		(at 104.14 93.98)
@@ -1613,18 +1624,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b75404db-4b24-4588-809e-d4a7f7742344")
-	)
-	(junction
-		(at 187.96 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d93c72d2-2527-4c58-bf8d-4684b74396b0")
-	)
-	(junction
-		(at 76.2 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1ec8b17-251c-4f0f-8863-fdbfb553dfa3")
 	)
 	(no_connect
 		(at 162.56 83.82)
@@ -1670,6 +1669,10 @@
 		(at 162.56 96.52)
 		(uuid "f3de06e2-4536-415b-bb7d-605723cb5eb3")
 	)
+	(no_connect
+		(at 134.62 91.44)
+		(uuid "ff28d46b-b823-437b-b922-d731837b865f")
+	)
 	(wire
 		(pts
 			(xy 93.98 71.12) (xy 104.14 71.12)
@@ -1682,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 129.54) (xy 137.16 129.54)
+			(xy 141.986 134.62) (xy 144.526 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1722,6 +1725,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 86.36) (xy 200.66 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320c7b09-8c6d-4196-adbe-c19374cccc7a")
+	)
+	(wire
+		(pts
 			(xy 175.26 86.36) (xy 187.96 86.36)
 		)
 		(stroke
@@ -1749,16 +1762,6 @@
 			(type default)
 		)
 		(uuid "40025a46-b0e6-4d26-96c6-059b17993191")
-	)
-	(wire
-		(pts
-			(xy 187.96 86.36) (xy 200.66 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47963b49-7b77-4dd6-93b6-99a42c271fdc")
 	)
 	(wire
 		(pts
@@ -1802,6 +1805,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 71.12) (xy 93.98 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bb09e03-2102-4125-ae87-6c26d7008b42")
+	)
+	(wire
+		(pts
 			(xy 134.62 86.36) (xy 114.3 86.36)
 		)
 		(stroke
@@ -1822,7 +1835,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 129.54) (xy 147.32 129.54)
+			(xy 129.286 134.62) (xy 134.366 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1882,16 +1895,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 91.44) (xy 134.62 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b41a91be-d0a6-458c-85df-839e619ff63d")
-	)
-	(wire
-		(pts
 			(xy 121.92 93.98) (xy 134.62 93.98)
 		)
 		(stroke
@@ -1912,16 +1915,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 96.52) (xy 118.11 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6a4241b-5c25-4dfc-b87f-7630385ca19d")
-	)
-	(wire
-		(pts
 			(xy 132.08 96.52) (xy 132.08 99.06)
 		)
 		(stroke
@@ -1929,16 +1922,6 @@
 			(type default)
 		)
 		(uuid "d7bd8717-dd25-4843-ade8-ae90cd139c90")
-	)
-	(wire
-		(pts
-			(xy 76.2 71.12) (xy 93.98 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2b03a43-3262-4b00-a9d4-689008fa6ab0")
 	)
 	(wire
 		(pts
@@ -1991,12 +1974,12 @@
 		(uuid "4e84df43-c7ed-4e78-a891-a56704f29dd5")
 	)
 	(label "IN_SYS"
-		(at 129.54 129.54 180)
+		(at 152.146 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8e328913-e25b-4a06-8e8b-01a7567f2dd5")
 	)
@@ -2011,12 +1994,12 @@
 		(uuid "9f342b1c-8da6-444f-adc7-36be80d5fd17")
 	)
 	(label "PGOOD"
-		(at 152.4 129.54 0)
+		(at 129.286 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b15cb5b2-e592-41c9-a2c0-143c0dfccb13")
 	)
@@ -2044,7 +2027,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 129.54 270)
+		(at 148.336 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2053,7 +2036,7 @@
 		(fields_autoplaced yes)
 		(uuid "0801d263-1316-4d42-b84d-3ca973b2c4a9")
 		(property "Reference" "R1"
-			(at 133.35 135.89 90)
+			(at 148.336 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2044,7 @@
 			)
 		)
 		(property "Value" "2kR"
-			(at 133.35 133.35 90)
+			(at 148.336 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2069,7 +2052,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 133.35 127.762 90)
+			(at 148.336 136.398 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,7 +2061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 129.54 0)
+			(at 148.336 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2070,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 129.54 0)
+			(at 148.336 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2096,7 +2079,7 @@
 			)
 		)
 		(property "LCSC Part" "C22975"
-			(at 133.35 129.54 90)
+			(at 148.336 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2612,9 +2595,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "57aab9cd-e803-4a23-8fd3-e8d41cf9f615")
+		(uuid "4fcf4879-f71c-45ed-92b2-13bc56eb614f")
 		(property "Reference" "C16"
-			(at 194.056 89.154 0)
+			(at 194.31 89.408 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,8 +2605,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
-			(at 196.342 91.44 0)
+		(property "Value" "10uF"
+			(at 195.326 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2658,7 +2641,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C1525"
+		(property "LCSC Part" "C315248"
 			(at 187.96 90.17 0)
 			(effects
 				(font
@@ -2668,94 +2651,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "59fb962d-ad7a-4eb7-a11a-bdc70d900a12")
+			(uuid "e6213b1e-6b49-4a89-abad-0e8952ec995a")
 		)
 		(pin "2"
-			(uuid "6a36326d-d08e-449c-ab97-3bd590bd170a")
+			(uuid "5ea615a6-bbeb-4b03-a28b-2caa4e92bc1e")
 		)
 		(instances
 			(project "MX26631DL"
 				(path "/69270d34-e760-4550-957c-28562ec7e789"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TVS diode:ESDBW5V0A1_C5173252")
-		(at 76.2 76.2 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5a8cfca8-57e7-4b02-b1e9-c15e627dfe5c")
-		(property "Reference" "U1"
-			(at 78.74 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESDBW5V0A1_C5173252"
-			(at 78.74 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:X1-DFN1006-2_L1.0-W0.6-P0.65-BI"
-			(at 83.82 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 76.2 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5173252"
-			(at 86.36 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "727db491-bf41-414d-a56c-3b81b5865520")
-		)
-		(pin "2"
-			(uuid "3ec4e05b-4391-4426-b741-53b92586e9a9")
-		)
-		(instances
-			(project ""
-				(path "/69270d34-e760-4550-957c-28562ec7e789"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2973,7 +2877,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 143.51 129.54 180)
+		(at 138.176 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2982,7 +2886,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b84acaf-efa8-4160-96de-6ffefb65300a")
 		(property "Reference" "D1"
-			(at 145.0975 135.89 0)
+			(at 136.5885 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2990,7 +2894,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 145.0975 133.35 0)
+			(at 136.5885 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2998,7 +2902,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 143.51 129.54 0)
+			(at 138.176 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3007,7 +2911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 129.54 0)
+			(at 138.176 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3016,7 +2920,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 143.51 129.54 0)
+			(at 138.176 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +2929,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 129.54 0)
+			(at 138.176 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3034,7 +2938,7 @@
 			)
 		)
 		(property "LCSC Part" "C965799"
-			(at 143.51 129.54 0)
+			(at 138.176 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3337,84 +3241,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 118.11 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8796746c-e5a9-434c-a35f-21716fc925a8")
-		(property "Reference" "C17"
-			(at 112.014 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 109.728 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 117.1448 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C1525"
-			(at 118.11 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79694f25-bf04-4caf-9400-222242bfd5ff")
-		)
-		(pin "2"
-			(uuid "fe60ee67-0ed6-4dad-b717-e36c6aef3132")
-		)
-		(instances
-			(project "MX26631DL"
-				(path "/69270d34-e760-4550-957c-28562ec7e789"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 215.9 86.36 0)
 		(unit 1)
@@ -3640,34 +3466,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 118.11 104.14 0)
+		(lib_id "TVS diode:ESDBW5V0A1_C5173252")
+		(at 76.2 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c0940f85-5349-4960-899b-427e791d1739")
-		(property "Reference" "#PWR052"
-			(at 118.11 110.49 0)
+		(uuid "c47f8980-ce7b-4219-971b-9008a8de3cdf")
+		(property "Reference" "U4"
+			(at 78.74 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 118.11 109.22 0)
+		(property "Value" "TPESD0402G15V"
+			(at 78.74 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 104.14 0)
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+			(at 83.82 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3676,7 +3503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 104.14 0)
+			(at 76.2 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,8 +3511,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 104.14 0)
+		(property "Description" ""
+			(at 76.2 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C558618"
+			(at 86.36 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,12 +3530,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "029e9425-b86b-4704-9d1e-c8a2cc3d31c6")
+			(uuid "d1e84329-0886-4054-a8e2-9fd36dd0e1a5")
+		)
+		(pin "2"
+			(uuid "18e1bc6a-a89e-4296-94de-f3fe798b41e3")
 		)
 		(instances
 			(project "MX26631DL"
 				(path "/69270d34-e760-4550-957c-28562ec7e789"
-					(reference "#PWR052")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -3949,7 +3788,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "11kR"
+		(property "Value" "6.2kR"
 			(at 124.46 104.1399 0)
 			(effects
 				(font
@@ -3985,7 +3824,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2909313"
+		(property "LCSC Part" "C25915"
 			(at 121.92 102.87 0)
 			(effects
 				(font
