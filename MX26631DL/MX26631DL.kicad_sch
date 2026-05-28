@@ -1405,7 +1405,7 @@
 		)
 		(uuid "614fbdbf-c41a-4a3a-b912-0c9d5549b19f")
 	)
-	(text "Testing Protection\n\nOver-voltage threshold\n\n  Min      Typ     Max\n5.782V < 5.929V < 6.174V\nRecovery voltage = 5.537V\n\nTesting Over-current Protection\n\n Min    Typ     Max\n1.8A < 2.05A < 2.22A\n\n"
+	(text "Testing Protection\n\nOver-voltage threshold\n\n  Min      Typ     Max\n5.593V < 5.735V < 5.972V\nRecovery voltage = <5.356V\n\nTesting Over-current Protection\n\n Min    Typ     Max\n1.8A < 2.05A < 2.22A\n\n"
 		(exclude_from_sim no)
 		(at 13.716 27.686 0)
 		(effects
@@ -2339,7 +2339,7 @@
 		(dnp no)
 		(uuid "41699b57-c2a6-4b76-bbe1-eecd8ed9481d")
 		(property "Reference" "R1"
-			(at 97.282 88.9 0)
+			(at 96.012 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,8 +2347,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "39kR"
-			(at 97.282 91.44 0)
+		(property "Value" "37.4kR"
+			(at 96.012 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +2383,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2930006"
+		(property "LCSC Part" "C185422"
 			(at 104.14 90.17 0)
 			(effects
 				(font
@@ -3298,7 +3298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 			(at 209.804 88.138 90)
 			(effects
 				(font
@@ -3325,7 +3325,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C109318"
+		(property "LCSC Part" "C2075790"
 			(at 209.804 86.36 0)
 			(effects
 				(font
@@ -3760,7 +3760,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31.6kR"
+		(property "Value" "29.4kR"
 			(at 183.134 91.4399 0)
 			(effects
 				(font
@@ -3796,7 +3796,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C2933196"
+		(property "LCSC Part" "C2930086"
 			(at 180.594 90.17 0)
 			(effects
 				(font
