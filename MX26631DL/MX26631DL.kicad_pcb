@@ -3718,7 +3718,7 @@
 		(layer "User.1")
 		(uuid "dd4e9d6a-ba1d-4810-b7bb-a494e4151f1f")
 		(pts
-			(xy 116 83) (xy 116 104.025)
+			(xy 116 83) (xy 116 104)
 		)
 		(height 3.4)
 		(orientation 1)
@@ -3739,8 +3739,8 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "21.025"
-			(at 118.25 93.5125 90)
+		(gr_text "21"
+			(at 118.25 93.5 90)
 			(layer "User.1")
 			(uuid "dd4e9d6a-ba1d-4810-b7bb-a494e4151f1f")
 			(effects
