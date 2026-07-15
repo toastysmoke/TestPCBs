@@ -1,0 +1,16 @@
+{
+  "parts": {
+    "C8734": {
+      "added": "2026-07-15",
+      "description": "ARM Cortex-M3 32-bit MCU, 64 KB Flash, 20 KB Internal RAM, 37 IOs, 48-pin LQFP, -40 to 85 degC, Tray",
+      "footprint_file": "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL.kicad_mod",
+      "lcsc_id": "C8734",
+      "model_files": [
+        "LQFP-48_L7.0-W7.0-H1.4-LS9.0-P0.50.step",
+        "LQFP-48_L7.0-W7.0-H1.4-LS9.0-P0.50.wrl"
+      ],
+      "symbol": "STM32F103C8T6",
+      "value": "STM32F103C8T6"
+    }
+  }
+}

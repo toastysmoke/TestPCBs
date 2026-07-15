@@ -271,6 +271,28 @@ def ensure_lib_table_entry(table_path: Path, tag: str, name: str, uri: str, lib_
         return True
 
 
+def rename_lib_table_entry(table_path: Path, old_name: str, new_name: str, new_uri: str) -> bool:
+    """Update an existing (lib (name "old_name") ...) entry in place so it
+    becomes (name "new_name") with the new uri, instead of leaving the old
+    registration behind and creating a second, empty library entry.
+    Returns True if an entry was found and updated."""
+    if not table_path.exists():
+        return False
+    content = table_path.read_text()
+    pattern = re.compile(
+        rf'(\(lib\s*\(name\s*")({re.escape(old_name)})("\)\(type\s*"[^"]*"\)\(uri\s*")([^"]*)("\))'
+    )
+    new_content, n = pattern.subn(
+        lambda m: f"{m.group(1)}{new_name}{m.group(3)}{new_uri}{m.group(5)}",
+        content,
+        count=1,
+    )
+    if n == 0:
+        return False
+    table_path.write_text(new_content)
+    return True
+
+
 # --------------------------------------------------------------------------- #
 # Metadata (parts.json)
 # --------------------------------------------------------------------------- #
@@ -316,6 +338,38 @@ def cmd_init(paths: LibPaths) -> None:
         print(f"Registered footprint library '{paths.lib_name}' in {paths.fp_table}")
     if not added_sym and not added_fp:
         print(f"Library '{paths.lib_name}' already registered in project lib tables.")
+
+
+def rename_library(paths: LibPaths, new_name: str) -> LibPaths:
+    """Rename the library in place: move the .kicad_sym file and the
+    .pretty / .3dshapes folders to their new names, and update the existing
+    sym-lib-table / fp-lib-table entries so KiCad keeps pointing at the same
+    library instead of ending up with an empty duplicate under the new name."""
+    old_name = paths.lib_name
+    new_paths = LibPaths(paths.project_dir, paths.lib_subdir, new_name)
+
+    if paths.sym_file.exists():
+        paths.sym_file.rename(new_paths.sym_file)
+    if paths.pretty_dir.exists():
+        paths.pretty_dir.rename(new_paths.pretty_dir)
+    if paths.shapes_dir.exists():
+        paths.shapes_dir.rename(new_paths.shapes_dir)
+
+    rel = new_paths.lib_dir.relative_to(new_paths.project_dir)
+    sym_uri = f"${{KIPRJMOD}}/{rel}/{new_name}.kicad_sym"
+    fp_uri = f"${{KIPRJMOD}}/{rel}/{new_name}.pretty"
+
+    renamed_sym = rename_lib_table_entry(paths.sym_table, old_name, new_name, sym_uri)
+    renamed_fp = rename_lib_table_entry(paths.fp_table, old_name, new_name, fp_uri)
+
+    # If there was no existing entry to rename (e.g. library was never
+    # initialized yet), just register the new one fresh.
+    if not renamed_sym:
+        ensure_lib_table_entry(new_paths.sym_table, "sym_lib_table", new_name, sym_uri)
+    if not renamed_fp:
+        ensure_lib_table_entry(new_paths.fp_table, "fp_lib_table", new_name, fp_uri)
+
+    return new_paths
 
 
 def cmd_add(paths: LibPaths, lcsc_ids: list[str], use_cache: bool, debug: bool, auto_install: bool = True) -> None:
@@ -614,8 +668,19 @@ def menu_settings(paths: LibPaths) -> LibPaths:
                 paths = LibPaths(paths.project_dir, new_sub, paths.lib_name)
         elif choice == "3":
             new_name = prompt("New library base name: ")
-            if new_name:
-                paths = LibPaths(paths.project_dir, paths.lib_subdir, new_name)
+            if new_name and new_name != paths.lib_name:
+                has_content = paths.sym_file.exists() or paths.pretty_dir.exists() or paths.shapes_dir.exists()
+                if has_content:
+                    paths = rename_library(paths, new_name)
+                    print(f"{GREEN}Renamed library '{paths.lib_dir}': "
+                          f"{new_name}.kicad_sym / .pretty / .3dshapes, "
+                          f"and updated the lib-table entries.{RESET}")
+                else:
+                    # Nothing on disk yet -- just point at the new name;
+                    # it'll get created the next time you add a part or
+                    # run Initialize.
+                    paths = LibPaths(paths.project_dir, paths.lib_subdir, new_name)
+                pause()
         elif choice == "4":
             STATE["auto_install"] = not STATE["auto_install"]
         elif choice in ("0", ""):

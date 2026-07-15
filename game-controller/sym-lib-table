@@ -1,4 +1,4 @@
 (sym_lib_table
-  (version 7)
-  (lib (name "parts")(type "KiCad")(uri "${KIPRJMOD}/easyeda_lib/parts.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "parts") (type "KiCad") (uri "${KIPRJMOD}/easyeda_lib/parts.kicad_sym") (options "") (descr ""))
 )
