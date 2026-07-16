@@ -1,5 +1,26 @@
 {
   "parts": {
+    "C262199": {
+      "added": "2026-07-15",
+      "description": null,
+      "footprint_file": "FPC-SMD_AFC07-S05FCC-00.kicad_mod",
+      "lcsc_id": "C262199",
+      "model_files": [
+        "FPC-SMD_AFC07-S05FCC-00.step",
+        "FPC-SMD_AFC07-S05FCC-00.wrl"
+      ],
+      "symbol": "AFC07-S05FCC-00",
+      "value": "AFC07-S05FCC-00"
+    },
+    "C46061678": {
+      "added": "2026-07-17",
+      "description": null,
+      "footprint_file": "HDR-SMD_5P-P2.54-H-M-W12.8-N.kicad_mod",
+      "lcsc_id": "C46061678",
+      "model_files": [],
+      "symbol": "HXPZ2.54-1X5PWT",
+      "value": "HX PZ2.54-1X5P WT"
+    },
     "C8734": {
       "added": "2026-07-15",
       "description": "ARM Cortex-M3 32-bit MCU, 64 KB Flash, 20 KB Internal RAM, 37 IOs, 48-pin LQFP, -40 to 85 degC, Tray",
