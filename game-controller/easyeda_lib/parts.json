@@ -12,6 +12,30 @@
       "symbol": "AFC07-S05FCC-00",
       "value": "AFC07-S05FCC-00"
     },
+    "C318884": {
+      "added": "2026-07-17",
+      "description": null,
+      "footprint_file": "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5.kicad_mod",
+      "lcsc_id": "C318884",
+      "model_files": [
+        "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5.step",
+        "SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL_H1.5.wrl"
+      ],
+      "symbol": "TS-1187A-B-A-B",
+      "value": "TS-1187A-B-A-B"
+    },
+    "C400090": {
+      "added": "2026-07-17",
+      "description": null,
+      "footprint_file": "CRYSTAL-SMD_4P-L3.2-W2.5-BL.kicad_mod",
+      "lcsc_id": "C400090",
+      "model_files": [
+        "CRYSTAL-SMD_4P-L3.2-W2.5-BL.step",
+        "CRYSTAL-SMD_4P-L3.2-W2.5-BL.wrl"
+      ],
+      "symbol": "TAXM8M4RDBCCT2T",
+      "value": "TAXM8M4RDBCCT2T"
+    },
     "C46061678": {
       "added": "2026-07-17",
       "description": null,
