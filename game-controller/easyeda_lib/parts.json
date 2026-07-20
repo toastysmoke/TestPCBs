@@ -36,6 +36,18 @@
       "symbol": "TAXM8M4RDBCCT2T",
       "value": "TAXM8M4RDBCCT2T"
     },
+    "C456018": {
+      "added": "2026-07-19",
+      "description": null,
+      "footprint_file": "USB-A-TH_AF-WJDG.kicad_mod",
+      "lcsc_id": "C456018",
+      "model_files": [
+        "USB-A-TH_4P-L14.5-W14.0-H7.6-S2.71.step",
+        "USB-A-TH_4P-L14.5-W14.0-H7.6-S2.71.wrl"
+      ],
+      "symbol": "AF90\u00b0WJDG",
+      "value": "AF 90\u00b0 WJDG"
+    },
     "C46061678": {
       "added": "2026-07-17",
       "description": null,
@@ -44,6 +56,39 @@
       "model_files": [],
       "symbol": "HXPZ2.54-1X5PWT",
       "value": "HX PZ2.54-1X5P WT"
+    },
+    "C51118": {
+      "added": "2026-07-19",
+      "description": null,
+      "footprint_file": "SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL.kicad_mod",
+      "lcsc_id": "C51118",
+      "model_files": [
+        "SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL.step",
+        "SOT-25-5_L2.9-W1.6-P0.95-LS2.8-BL.wrl"
+      ],
+      "symbol": "AP2112K-3.3TRG1",
+      "value": "AP2112K-3.3TRG1"
+    },
+    "C6276862": {
+      "added": "2026-07-20",
+      "description": null,
+      "footprint_file": "CONN-SMD_YZ103915020T-04025-01.kicad_mod",
+      "lcsc_id": "C6276862",
+      "model_files": [
+        "CONN-SMD_YZ103915020T-04025-01.step",
+        "CONN-SMD_YZ103915020T-04025-01.wrl"
+      ],
+      "symbol": "YZ103915020T-04025-02",
+      "value": "YZ103915020T-04025-02"
+    },
+    "C720915": {
+      "added": "2026-07-20",
+      "description": null,
+      "footprint_file": null,
+      "lcsc_id": "C720915",
+      "model_files": [],
+      "symbol": "TAXM8M4RLBDDT2T",
+      "value": "TAXM8M4RLBDDT2T"
     },
     "C8734": {
       "added": "2026-07-15",
