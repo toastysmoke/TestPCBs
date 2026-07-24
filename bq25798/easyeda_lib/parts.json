@@ -1,0 +1,76 @@
+{
+  "parts": {
+    "C136423": {
+      "added": "2026-07-24",
+      "description": null,
+      "footprint_file": "USB-C-SMD_MC-311D.kicad_mod",
+      "lcsc_id": "C136423",
+      "model_files": [
+        "USB-3.1-SMD_16P-L8.9-W7.3-H3.3-P0.5.step",
+        "USB-3.1-SMD_16P-L8.9-W7.3-H3.3-P0.5.wrl"
+      ],
+      "symbol": "MC-311D",
+      "value": "MC-311D"
+    },
+    "C160316": {
+      "added": "2026-07-24",
+      "description": null,
+      "footprint_file": "CONN-TH_B3P-VH-LF-SN.kicad_mod",
+      "lcsc_id": "C160316",
+      "model_files": [
+        "CONN-TH_B3P-VH-LF-SN.step",
+        "CONN-TH_B3P-VH-LF-SN.wrl"
+      ],
+      "symbol": "B3P-VH",
+      "value": "B3P-VH"
+    },
+    "C2876593": {
+      "added": "2026-07-24",
+      "description": null,
+      "footprint_file": "QFN-29_L4.0-W4.0-P0.40-TL-BQ25792RQMR.kicad_mod",
+      "lcsc_id": "C2876593",
+      "model_files": [
+        "QFN-29_L4.0-W4.0-P0.40-TL-BQ25792RQMR.step",
+        "QFN-29_L4.0-W4.0-P0.40-TL-BQ25792RQMR.wrl"
+      ],
+      "symbol": "BQ25798RQMR",
+      "value": "BQ25798RQMR"
+    },
+    "C49066901": {
+      "added": "2026-07-24",
+      "description": null,
+      "footprint_file": "SOT-223-3_L6.7-W3.7-P2.30-LS7.0-BR_2.kicad_mod",
+      "lcsc_id": "C49066901",
+      "model_files": [
+        "SOT-223-3_L6.7-W3.7-P2.30-LS7.0-BR_2.step",
+        "SOT-223-3_L6.7-W3.7-P2.30-LS7.0-BR_2.wrl"
+      ],
+      "symbol": "HT04N200S",
+      "value": "HT04N200S"
+    },
+    "C5125736": {
+      "added": "2026-07-24",
+      "description": null,
+      "footprint_file": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2.kicad_mod",
+      "lcsc_id": "C5125736",
+      "model_files": [
+        "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2.step",
+        "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2.wrl"
+      ],
+      "symbol": "CH221K",
+      "value": "CH221K"
+    },
+    "C719314": {
+      "added": "2026-07-24",
+      "description": null,
+      "footprint_file": "ESOP-8_L4.9-W3.9-P1.27-LS6.0-BL-EP.kicad_mod",
+      "lcsc_id": "C719314",
+      "model_files": [
+        "ESOP-8_L4.9-W3.9-H1.6-LS6.0-P1.27.step",
+        "ESOP-8_L4.9-W3.9-H1.6-LS6.0-P1.27.wrl"
+      ],
+      "symbol": "SCT2452STER",
+      "value": "SCT2452STER"
+    }
+  }
+}

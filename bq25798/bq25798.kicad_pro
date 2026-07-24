@@ -416,13 +416,17 @@
         "uuid": "4f0b38db-6976-4166-b6ec-9f1d7a7dd036"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR1-3,#PWR82-125,USBC1-3,SW1-2,R1-26,U1-5,U7,Q1-4,L1-4,CN1-2,C1-56",
     "variants": []
   },
   "sheets": [
     [
       "4f0b38db-6976-4166-b6ec-9f1d7a7dd036",
       ""
+    ],
+    [
+      "60612508-e8df-4c9d-beeb-7f1be0c808e4",
+      "Input Buck"
     ]
   ],
   "text_variables": {},
