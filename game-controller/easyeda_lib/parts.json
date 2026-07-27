@@ -12,6 +12,18 @@
       "symbol": "AFC07-S05FCC-00",
       "value": "AFC07-S05FCC-00"
     },
+    "C2826547": {
+      "added": "2026-07-26",
+      "description": null,
+      "footprint_file": "SMD_BD2.0-L2.0-W2.0_C9900001905.kicad_mod",
+      "lcsc_id": "C2826547",
+      "model_files": [
+        "SMD_BD2.0-L2.0-W2.0_C9900001905.step",
+        "SMD_BD2.0-L2.0-W2.0_C9900001905.wrl"
+      ],
+      "symbol": "BWCD-L3.5W2.0H1.0",
+      "value": "BWCD-L3.5W2.0H1.0"
+    },
     "C318884": {
       "added": "2026-07-17",
       "description": null,
@@ -69,17 +81,17 @@
       "symbol": "AP2112K-3.3TRG1",
       "value": "AP2112K-3.3TRG1"
     },
-    "C6276862": {
-      "added": "2026-07-20",
+    "C720521": {
+      "added": "2026-07-26",
       "description": null,
-      "footprint_file": "CONN-SMD_YZ103915020T-04025-01.kicad_mod",
-      "lcsc_id": "C6276862",
+      "footprint_file": "USB-A-SMD_USB-212-BCW.kicad_mod",
+      "lcsc_id": "C720521",
       "model_files": [
-        "CONN-SMD_YZ103915020T-04025-01.step",
-        "CONN-SMD_YZ103915020T-04025-01.wrl"
+        "USB-A-SMD_USB-212-BCW.step",
+        "USB-A-SMD_USB-212-BCW.wrl"
       ],
-      "symbol": "YZ103915020T-04025-02",
-      "value": "YZ103915020T-04025-02"
+      "symbol": "USB-212-BCW",
+      "value": "USB-212-BCW"
     },
     "C720915": {
       "added": "2026-07-20",

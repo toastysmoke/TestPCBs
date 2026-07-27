@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.0,
+          "height": 5.0,
+          "width": 5.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -650,13 +650,17 @@
         "uuid": "09f2e687-94b8-4ec9-a79c-a1fb25df92c9"
       }
     ],
-    "used_designators": "J1,TP1,USB1,R1-2,X1,H1,SW1-8,#PWR1-57,D1-6,C1-15,FPC1-2,U1-4",
+    "used_designators": "J1,TP1-9,USB1,R1-2,X1,H1,SW1-8,#PWR1-58,D1-6,C1-15,FPC1-2,U1-4",
     "variants": []
   },
   "sheets": [
     [
       "09f2e687-94b8-4ec9-a79c-a1fb25df92c9",
       "game-controller"
+    ],
+    [
+      "f30cad34-cbe6-448c-b126-6097f423ebbe",
+      "Contact_To_USB"
     ]
   ],
   "text_variables": {},

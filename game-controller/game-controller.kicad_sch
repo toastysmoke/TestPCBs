@@ -3375,7 +3375,7 @@
 	)
 	(text "Enable HSE\nConfigure PLL to x9\nPrescaler to /1.5\nSwitch SYSCLK to use PLLCLK\nEnable the USB peripheral clock in the RCC"
 		(exclude_from_sim no)
-		(at 210.312 21.59 0)
+		(at 215.392 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3420,7 +3420,7 @@
 		(uuid "37e1e964-7644-4388-92b8-395bc7493d43")
 	)
 	(junction
-		(at 219.71 41.91)
+		(at 224.79 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dc5f87a-278a-4e4b-96c1-c5f9c80e2105")
@@ -3528,7 +3528,7 @@
 		(uuid "db690acb-80b6-433d-8cfb-ba8f3ec69ef4")
 	)
 	(junction
-		(at 201.93 41.91)
+		(at 207.01 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2016e9b-dbf0-4ca8-9811-0b4ea435d1bb")
@@ -3561,7 +3561,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 43.18) (xy 219.71 41.91)
+			(xy 224.79 43.18) (xy 224.79 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3591,7 +3591,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 43.18) (xy 201.93 41.91)
+			(xy 207.01 43.18) (xy 207.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3861,7 +3861,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 36.83) (xy 201.93 36.83)
+			(xy 208.28 36.83) (xy 207.01 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3981,7 +3981,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 36.83) (xy 219.71 36.83)
+			(xy 223.52 36.83) (xy 224.79 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4051,7 +4051,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 41.91) (xy 218.44 41.91)
+			(xy 224.79 41.91) (xy 223.52 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4091,16 +4091,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 82.55) (xy 185.42 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad6adea5-0c5f-4545-a0c9-c11bd6a91c19")
-	)
-	(wire
-		(pts
 			(xy 213.36 77.47) (xy 246.38 77.47)
 		)
 		(stroke
@@ -4121,13 +4111,23 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 36.83) (xy 201.93 41.91)
+			(xy 207.01 36.83) (xy 207.01 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b7786a0c-dc86-4a04-ba40-836851a402a2")
+	)
+	(wire
+		(pts
+			(xy 185.42 82.55) (xy 246.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbab75b8-a392-473c-b842-83ac3de6e8c1")
 	)
 	(wire
 		(pts
@@ -4171,7 +4171,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 41.91) (xy 203.2 41.91)
+			(xy 207.01 41.91) (xy 208.28 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4281,7 +4281,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 36.83) (xy 219.71 41.91)
+			(xy 224.79 36.83) (xy 224.79 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4670,7 +4670,7 @@
 		(uuid "bdc6378f-47a5-436c-84af-c40c550e019e")
 	)
 	(label "OSC_OUT"
-		(at 219.71 36.83 0)
+		(at 224.79 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4680,7 +4680,7 @@
 		(uuid "c953f723-bf56-479c-aec9-5dc242b44771")
 	)
 	(label "OSC_IN"
-		(at 201.93 36.83 180)
+		(at 207.01 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4788,6 +4788,85 @@
 			(justify left bottom)
 		)
 		(uuid "fffcd48d-9912-4967-b8f8-c3cb195a1587")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 82.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00d3baff-e47f-4e31-a2b4-554e110408ca")
+		(property "Reference" "TP5"
+			(at 251.46 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 251.46 83.8199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 246.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99757b2e-b22c-4fb5-857c-b77346cbd0d6")
+		)
+		(instances
+			(project "game-controller"
+				(path "/09f2e687-94b8-4ec9-a79c-a1fb25df92c9"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -5105,7 +5184,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 50.8 0)
+		(at 207.01 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5116,7 +5195,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dd61fde-282a-45a2-b2f9-8e0333a75670")
 		(property "Reference" "#PWR017"
-			(at 201.93 57.15 0)
+			(at 207.01 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5127,7 +5206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 55.88 0)
+			(at 207.01 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5137,7 +5216,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 50.8 0)
+			(at 207.01 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5148,7 +5227,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 50.8 0)
+			(at 207.01 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5159,7 +5238,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 50.8 0)
+			(at 207.01 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5506,6 +5585,85 @@
 			(project "game-controller"
 				(path "/09f2e687-94b8-4ec9-a79c-a1fb25df92c9"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 77.47 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a7a26dd-d912-4529-8b30-8fa8b0b55034")
+		(property "Reference" "TP3"
+			(at 251.46 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 251.46 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 246.38 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1be48b1f-6254-48be-a78c-eb7cdd6ecd57")
+		)
+		(instances
+			(project "game-controller"
+				(path "/09f2e687-94b8-4ec9-a79c-a1fb25df92c9"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6649,7 +6807,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 201.93 46.99 0)
+		(at 207.01 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6660,7 +6818,7 @@
 		(fields_autoplaced yes)
 		(uuid "36945018-7daa-4131-bde9-834073ac6c07")
 		(property "Reference" "C8"
-			(at 205.74 45.7199 0)
+			(at 210.82 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6671,7 +6829,7 @@
 			)
 		)
 		(property "Value" "20pF"
-			(at 205.74 48.2599 0)
+			(at 210.82 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6682,7 +6840,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 202.8952 50.8 0)
+			(at 207.9752 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6693,7 +6851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 46.99 0)
+			(at 207.01 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6704,7 +6862,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 201.93 46.99 0)
+			(at 207.01 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6715,7 +6873,7 @@
 			)
 		)
 		(property "LCSC Part" "C107000"
-			(at 201.93 46.99 0)
+			(at 207.01 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7375,7 +7533,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 219.71 46.99 0)
+		(at 224.79 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7386,7 +7544,7 @@
 		(fields_autoplaced yes)
 		(uuid "427e920b-ae85-43c8-b749-ecf2b5977862")
 		(property "Reference" "C7"
-			(at 223.52 45.7199 0)
+			(at 228.6 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7397,7 +7555,7 @@
 			)
 		)
 		(property "Value" "20pF"
-			(at 223.52 48.2599 0)
+			(at 228.6 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7408,7 +7566,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 220.6752 50.8 0)
+			(at 225.7552 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7419,7 +7577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 46.99 0)
+			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7430,7 +7588,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 219.71 46.99 0)
+			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7441,7 +7599,7 @@
 			)
 		)
 		(property "LCSC Part" "C107000"
-			(at 219.71 46.99 0)
+			(at 224.79 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7719,7 +7877,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 50.8 0)
+		(at 224.79 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7730,7 +7888,7 @@
 		(fields_autoplaced yes)
 		(uuid "529e4490-bbc0-451a-ab40-8c9a65cd5f1a")
 		(property "Reference" "#PWR018"
-			(at 219.71 57.15 0)
+			(at 224.79 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7741,7 +7899,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 55.88 0)
+			(at 224.79 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7751,7 +7909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 50.8 0)
+			(at 224.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7762,7 +7920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 50.8 0)
+			(at 224.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7773,7 +7931,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 50.8 0)
+			(at 224.79 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9904,6 +10062,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 74.93 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f0d4ce4-800e-43a1-9579-1821df729332")
+		(property "Reference" "TP2"
+			(at 251.46 73.6599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 251.46 76.1999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 246.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdb4fe23-c3df-4161-845a-08a91c51f877")
+		)
+		(instances
+			(project "game-controller"
+				(path "/09f2e687-94b8-4ec9-a79c-a1fb25df92c9"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 186.69 144.78 90)
 		(unit 1)
@@ -11339,7 +11576,7 @@
 	)
 	(symbol
 		(lib_id "parts:TAXM8M4RLBDDT2T")
-		(at 210.82 39.37 0)
+		(at 215.9 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11350,7 +11587,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd489dbd-881c-4242-abdf-e61bfaa38c55")
 		(property "Reference" "X1"
-			(at 210.82 29.21 0)
+			(at 215.9 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11360,7 +11597,7 @@
 			)
 		)
 		(property "Value" "TAXM8M4RLBDDT2T"
-			(at 210.82 31.75 0)
+			(at 215.9 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11370,7 +11607,7 @@
 			)
 		)
 		(property "Footprint" "parts:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
-			(at 210.82 49.53 0)
+			(at 215.9 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11381,7 +11618,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C720915.pdf"
-			(at 210.82 52.07 0)
+			(at 215.9 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11392,7 +11629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 39.37 0)
+			(at 215.9 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11403,7 +11640,7 @@
 			)
 		)
 		(property "Manufacturer" "YJX(雅晶鑫)"
-			(at 210.82 54.61 0)
+			(at 215.9 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11414,7 +11651,7 @@
 			)
 		)
 		(property "MPN" "TAXM8M4RLBDDT2T"
-			(at 210.82 57.15 0)
+			(at 215.9 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11425,7 +11662,7 @@
 			)
 		)
 		(property "LCSC Part" "C720915"
-			(at 210.82 59.69 0)
+			(at 215.9 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12310,6 +12547,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 246.38 80.01 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4cdc0ec-0053-4f64-aa6a-0a151e47caa4")
+		(property "Reference" "TP4"
+			(at 251.46 78.7399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 251.46 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 246.38 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 246.38 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1facc42-0ea7-4269-9e19-327756d5af07")
+		)
+		(instances
+			(project "game-controller"
+				(path "/09f2e687-94b8-4ec9-a79c-a1fb25df92c9"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 186.69 124.46 90)
 		(unit 1)
@@ -12974,6 +13290,52 @@
 				(path "/09f2e687-94b8-4ec9-a79c-a1fb25df92c9"
 					(reference "#PWR019")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 99.06 93.98)
+		(size 27.94 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f30cad34-cbe6-448c-b126-6097f423ebbe")
+		(property "Sheetname" "Contact_To_USB"
+			(at 99.06 93.2684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "contact_to_usb.kicad_sch"
+			(at 99.06 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "game-controller"
+				(path "/09f2e687-94b8-4ec9-a79c-a1fb25df92c9"
+					(page "2")
 				)
 			)
 		)
